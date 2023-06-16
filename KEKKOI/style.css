@@ -1,0 +1,99 @@
+/* CSS untuk lebar layar di bawah 600px */
+@media (max-width: 600px) {
+  /* Atur tata letak atau gaya yang diinginkan untuk lebar layar kecil */
+  /* Misalnya, mengubah lebar konten atau mengatur ul menjadi tumpukan vertikal */
+}
+
+/* CSS untuk lebar layar di antara 600px dan 1200px */
+@media (min-width: 601px) and (max-width: 1200px) {
+  /* Atur tata letak atau gaya yang diinginkan untuk lebar layar menengah */
+  /* Misalnya, mengatur ul menjadi tumpukan vertikal atau mengatur lebar konten menjadi 50% */
+}
+
+/* CSS untuk lebar layar di atas 1200px */
+@media (min-width: 1201px) {
+  /* Atur tata letak atau gaya yang diinginkan untuk lebar layar besar */
+  /* Misalnya, mengatur ul menjadi tata letak grid atau mengatur lebar konten menjadi 70% */
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #666;
+    line-height: 1.5;
+}
+
+ul {
+    text-align: left;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* style.css */
+
+/* Navbar container */
+.navbar {
+    background-color: #333;
+    height: 60px;
+    display: flex;
+    align-items: center;
+  }
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .navbar-brand:hover {
+    color: #cccccc;
+  }
+  
+  
+  /* Navbar logo */
+  .navbar-logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  
+  /* Navbar links */
+  .navbar-links {
+    margin-left: auto;
+    margin-right: 20px;
+  }
+  
+  /* Navbar link items */
+  .navbar-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 16px;
+  }
+  
+  /* Navbar link items - hover */
+  .navbar-links a:hover {
+    text-decoration: underline;
+  }
+  
